@@ -3,7 +3,7 @@
     {
       "tag": "saudacao",
       "patterns": ["Olá", "Oi", "Tudo bem?", "Como vai?"],
-      "responses": ["Olá! Como posso te ajudar com seu projeto PIPE?", "Oi! Estou aqui para ajudar com sua submissão PIPE."]
+      "responses": ["Olá! Como posso te ajudar com seu projeto PIPE?", "Oi! Estou aqui para ajudar com sua submissão e dúvidas."]
     },
     {
       "tag": "despedida",
@@ -22,7 +22,7 @@
     },
     {
       "tag": "requisitos_participacao",
-      "patterns": ["Como posso participar?","Quais são os requisitos para participar?", "Quem pode submeter um projeto PIPE?", "Quais empresas podem participar?", "O que preciso para participar?"],
+      "patterns": ["Quais são os requisitos para participar?", "Quem pode submeter um projeto PIPE?", "Quais empresas podem participar?","Quem pode participar?", "O que preciso para participar?"],
       "responses": ["Podem participar empresas de pequeno porte, sediadas no Estado de São Paulo, com até 250 empregados. O pesquisador responsável deve ter vínculo com a empresa."]
     },
     {
@@ -42,22 +42,22 @@
     },
     {
       "tag": "prazo_submissao",
-      "patterns": ["Qual é o prazo de submissão?", "Até quando posso submeter um projeto?", "Qual a data limite?"],
+      "patterns": ["Qual é o prazo de submissão?", "Até quando posso submeter um projeto?", "Qual a data limite?", "Qual o prazo?", "Tem prazo?"],
       "responses": ["Os prazos de submissão variam ao longo do ano. É importante verificar no site da FAPESP as datas das chamadas vigentes."]
     },
     {
       "tag": "financiamento",
-      "patterns": ["Qual o valor do financiamento?", "Quanto posso receber no PIPE?", "Qual é o orçamento disponível?"],
+      "patterns": ["Qual o valor do financiamento?", "Quanto posso receber?", "Qual é o orçamento disponível?", "Sobre o financiamento", "Como financiar?"],
       "responses": ["O valor do financiamento depende da fase do projeto. Na Fase 1, o valor é até R$ 200.000,00. Na Fase 2, pode chegar a R$ 1.000.000,00. Não há financiamento para a Fase 3, pois é voltada para a comercialização."]
     },
     {
       "tag": "avaliacao_projeto",
-      "patterns": ["Como meu projeto será avaliado?", "Quais são os critérios de avaliação?", "O que é levado em conta na avaliação?"],
+      "patterns": ["Como meu projeto será avaliado?", "Quais são os critérios de avaliação?", "O que é levado em conta na avaliação?", "Como será a avaliação?", "Sobre a avaliação"],
       "responses": ["Os projetos são avaliados com base na viabilidade técnica, potencial de inovação, relevância econômica e impacto no mercado. É importante que o projeto demonstre clareza nos objetivos e metodologias."]
     },
     {
       "tag": "acompanhamento_projeto",
-      "patterns": ["Como é feito o acompanhamento do projeto?", "O que acontece após a aprovação?", "Como monitoram o progresso?"],
+      "patterns": ["Como é feito o acompanhamento do projeto?", "O que acontece após a aprovação?", "Como monitoram o progresso?", "Sobre o acompanhamento", "Depois da aprovação?"],
       "responses": ["Após a aprovação, a FAPESP realiza um acompanhamento periódico, com relatórios de progresso e visitas técnicas, para garantir que o projeto esteja cumprindo os objetivos estabelecidos."]
     }
   ]
