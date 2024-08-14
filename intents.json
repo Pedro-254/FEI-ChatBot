@@ -1,15 +1,64 @@
-{"intents":[
-  { "tag": "saudacao",
-    "patterns":["Ola","Opa","Oi", "tudo bem"],
-    "responses": ["Oi","Olá"]
-  },
-  { "tag": "despedida",
-    "patterns":["valeu","tchau","Obrigado","tks"],
-    "responses": ["Até breve","Falou"]
-  },
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?"],
-    "responses": ["no dia 26"]
-  }
-]
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Olá", "Oi", "Tudo bem?", "Como vai?"],
+      "responses": ["Olá! Como posso te ajudar com seu projeto PIPE?", "Oi! Estou aqui para ajudar com sua submissão PIPE."]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até mais", "Obrigado", "Valeu"],
+      "responses": ["Até logo! Boa sorte com seu projeto PIPE.", "De nada! Estou aqui se precisar de mais ajuda."]
+    },
+    {
+      "tag": "concordancia",
+      "patterns": ["Sim","Claro","Porfavor"],
+      "responses": ["Estou aqui para te ajudar com o seu projeto. O que mais deseja saber?"]
+    },
+    {
+      "tag": "informacao_geral",
+      "patterns": ["O que é o PIPE?","O que é um projeto PIPE?", "Como funciona o PIPE?"],
+      "responses": ["O Programa PIPE da FAPESP apoia a pesquisa científica e tecnológica em pequenas empresas. Quer saber mais detalhes sobre as fases ou como submeter um projeto?"]
+    },
+    {
+      "tag": "requisitos_participacao",
+      "patterns": ["Como posso participar?","Quais são os requisitos para participar?", "Quem pode submeter um projeto PIPE?", "Quais empresas podem participar?", "O que preciso para participar?"],
+      "responses": ["Podem participar empresas de pequeno porte, sediadas no Estado de São Paulo, com até 250 empregados. O pesquisador responsável deve ter vínculo com a empresa."]
+    },
+    {
+      "tag": "fases_projeto",
+      "patterns": ["Quais são as fases do PIPE?", "Como funcionam as fases do PIPE?", "Me explique as fases do PIPE"],
+      "responses": ["O PIPE é dividido em três fases: Fase 1 para análise da viabilidade técnica, Fase 2 para desenvolvimento do produto ou processo inovador, e Fase 3 para comercialização. Quer detalhes sobre alguma fase específica?"]
+    },
+    {
+      "tag": "submissao_projeto",
+      "patterns": ["Como submeter meu projeto?", "Como enviar meu projeto?","Como submeter um projeto PIPE?", "Qual o processo de submissão?", "Como faço para enviar um projeto?"],
+      "responses": ["Para submeter um projeto PIPE, você precisa seguir as diretrizes disponíveis no site da FAPESP, preparar toda a documentação e enviar sua proposta pelo sistema SAGe."]
+    },
+    {
+      "tag": "documentacao_necessaria",
+      "patterns": ["Quais documentos são necessários?", "Qual é a documentação exigida?"],
+      "responses": ["Você precisará de um plano de pesquisa detalhado, orçamento, cronograma, currículo dos pesquisadores, e outros documentos específicos. Consulte o edital para ver a lista completa."]
+    },
+    {
+      "tag": "prazo_submissao",
+      "patterns": ["Qual é o prazo de submissão?", "Até quando posso submeter um projeto?", "Qual a data limite?"],
+      "responses": ["Os prazos de submissão variam ao longo do ano. É importante verificar no site da FAPESP as datas das chamadas vigentes."]
+    },
+    {
+      "tag": "financiamento",
+      "patterns": ["Qual o valor do financiamento?", "Quanto posso receber no PIPE?", "Qual é o orçamento disponível?"],
+      "responses": ["O valor do financiamento depende da fase do projeto. Na Fase 1, o valor é até R$ 200.000,00. Na Fase 2, pode chegar a R$ 1.000.000,00. Não há financiamento para a Fase 3, pois é voltada para a comercialização."]
+    },
+    {
+      "tag": "avaliacao_projeto",
+      "patterns": ["Como meu projeto será avaliado?", "Quais são os critérios de avaliação?", "O que é levado em conta na avaliação?"],
+      "responses": ["Os projetos são avaliados com base na viabilidade técnica, potencial de inovação, relevância econômica e impacto no mercado. É importante que o projeto demonstre clareza nos objetivos e metodologias."]
+    },
+    {
+      "tag": "acompanhamento_projeto",
+      "patterns": ["Como é feito o acompanhamento do projeto?", "O que acontece após a aprovação?", "Como monitoram o progresso?"],
+      "responses": ["Após a aprovação, a FAPESP realiza um acompanhamento periódico, com relatórios de progresso e visitas técnicas, para garantir que o projeto esteja cumprindo os objetivos estabelecidos."]
+    }
+  ]
 }
