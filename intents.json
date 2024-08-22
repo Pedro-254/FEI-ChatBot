@@ -2,8 +2,8 @@
   "intents": [
     {
       "tag": "saudacao",
-      "patterns": ["Olá", "Oi", "Tudo bem?", "Como vai?"],
-      "responses": ["Olá! Como posso te ajudar com seu projeto PIPE?", "Oi! Estou aqui para ajudar com sua submissão e dúvidas."]
+      "patterns": ["Ola", "Oi", "Tudo bem?", "Como vai?", "Boa tarde", "Bom dia", "Boa noite"],
+      "responses": ["Olá! Sou um chatbot que ira te auxiliar com o seu projeto PIPE, tem alguma pergunta?"]
     },
     {
       "tag": "despedida",
@@ -22,7 +22,7 @@
     },
     {
       "tag": "requisitos_participacao",
-      "patterns": ["Quais são os requisitos para participar?", "Quem pode submeter um projeto PIPE?", "Quais empresas podem participar?","Quem pode participar?", "O que preciso para participar?"],
+      "patterns": ["Quais são os requisitos para participar?", "Quais empresas podem participar?","Quem pode participar?", "O que preciso para participar?"],
       "responses": ["Podem participar empresas de pequeno porte, sediadas no Estado de São Paulo, com até 250 empregados. O pesquisador responsável deve ter vínculo com a empresa."]
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "tag": "submissao_projeto",
-      "patterns": ["Como submeter meu projeto?", "Como enviar meu projeto?","Como submeter um projeto PIPE?", "Qual o processo de submissão?", "Como faço para enviar um projeto?"],
+      "patterns": ["Como submeter meu projeto?", "Como enviar meu projeto?","Como submeter um projeto PIPE?", "Qual o processo de submissão?", "Como faço para enviar um projeto?", "Fazer a submissao", "Submeter"],
       "responses": ["Para submeter um projeto PIPE, você precisa seguir as diretrizes disponíveis no site da FAPESP, preparar toda a documentação e enviar sua proposta pelo sistema SAGe."]
     },
     {

@@ -12,7 +12,7 @@ myChatBot.createModel()
 
 
 
-print("Bem vindo ao Chatbot")
+print("Bem vindo ao Chatbot PIPE")
 
 
 pergunta = input("como posso te ajudar?\n")
